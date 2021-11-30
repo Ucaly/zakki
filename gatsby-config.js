@@ -4,6 +4,7 @@ module.exports = {
         description: `自分が忘れないために記録するメモ集です`
     },
     plugins: [
+        `gatsby-plugin-theme-ui`,
         `gatsby-plugin-mdx`,
         {
             resolve: `gatsby-source-filesystem`,
